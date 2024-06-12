@@ -1,0 +1,59 @@
+***startSetup***
+model,HB
+nSite,18
+subSpace,1000
+nStates,10
+Ms,1,0
+s2Target,0
+maxItr,20
+startSpinTargetItr,5
+energyTola, 0.02
+spinTola,0.1
+jValue,1
+beta,38.61
+bondOrder,bondOrder-chain18.dat
+restart,False
+***endSetup***
+
+Total Posible Determinats are 48620 .
+Breakup are [Ms, No of Determinants] - 	[0, 48620]
+
+ite->	1 ; spece->	1200 ; Energy->	-3.655304 ; State->	1 ; s^2 Expe Val->	7.6155 ;
+ite->	2 ; spece->	1200 ; Energy->	-4.333869 ; State->	1 ; s^2 Expe Val->	6.4923 ;
+ite->	3 ; spece->	1200 ; Energy->	-4.428249 ; State->	1 ; s^2 Expe Val->	6.2908 ;
+ite->	4 ; spece->	1200 ; Energy->	-4.909576 ; State->	1 ; s^2 Expe Val->	6.3106 ;
+ite->	5 ; spece->	1200 ; Energy->	-4.920248 ; State->	1 ; s^2 Expe Val->	6.2421 ;
+
+Starting Active-Learning Protocal 
+
+Starting Optimization W.R.T Spin, Target State Spin Value -> 0.000000 
+
+ite->	6 ; spece->	1200 ; Energy->	-6.349312 ; State->	1 ; s^2 Expe Val->	3.3656 ;
+ite->	7 ; spece->	1200 ; Energy->	-6.782572 ; State->	1 ; s^2 Expe Val->	2.2099 ;
+ite->	8 ; spece->	1200 ; Energy->	-7.047913 ; State->	1 ; s^2 Expe Val->	1.5030 ;
+ite->	9 ; spece->	1200 ; Energy->	-7.171356 ; State->	1 ; s^2 Expe Val->	1.0763 ;
+ite->	10 ; spece->	1200 ; Energy->	-7.220000 ; State->	1 ; s^2 Expe Val->	0.9183 ;
+ite->	11 ; spece->	2400 ; Energy->	-7.501501 ; State->	1 ; s^2 Expe Val->	0.4434 ;
+ite->	12 ; spece->	2400 ; Energy->	-7.496867 ; State->	1 ; s^2 Expe Val->	0.5152 ;
+ite->	13 ; spece->	2400 ; Energy->	-7.521727 ; State->	1 ; s^2 Expe Val->	0.5083 ;
+ite->	14 ; spece->	3600 ; Energy->	-7.638967 ; State->	1 ; s^2 Expe Val->	0.2576 ;
+ite->	15 ; spece->	3600 ; Energy->	-7.636874 ; State->	1 ; s^2 Expe Val->	0.2774 ;
+ite->	16 ; spece->	3600 ; Energy->	-7.638057 ; State->	1 ; s^2 Expe Val->	0.2732 ;
+ite->	17 ; spece->	4800 ; Energy->	-7.693887 ; State->	1 ; s^2 Expe Val->	0.1880 ;
+ite->	18 ; spece->	4800 ; Energy->	-7.694120 ; State->	1 ; s^2 Expe Val->	0.1938 ;
+ite->	19 ; spece->	4800 ; Energy->	-7.696277 ; State->	1 ; s^2 Expe Val->	0.1959 ;
+
+Iteration Converged.
+
+Energy & Spin Value of First 10 States.
+State: 1	Energy: -7.696277	s^2 Expe Val: 0.1959
+State: 2	Energy: -7.441759	s^2 Expe Val: 2.0847
+State: 3	Energy: -7.197449	s^2 Expe Val: 2.0971
+State: 4	Energy: -6.979561	s^2 Expe Val: 2.9448
+State: 5	Energy: -6.962255	s^2 Expe Val: 2.1485
+State: 6	Energy: -6.747929	s^2 Expe Val: 2.1521
+State: 7	Energy: -6.730414	s^2 Expe Val: 2.7233
+State: 8	Energy: -6.558274	s^2 Expe Val: 2.1454
+State: 9	Energy: -6.540525	s^2 Expe Val: 2.6347
+State: 10	Energy: -6.510042	s^2 Expe Val: 2.5776
+Total Time Taken in MCCI Calculation is 2387.501069 sec.
